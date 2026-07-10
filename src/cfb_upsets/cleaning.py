@@ -1,6 +1,5 @@
 """
-Loads raw games and lines JSON files from data/raw/, filters to FBS-vs-FBS
-games only
+Loads raw games and lines JSON files from data/raw/, filters to FBS-vs-FBS games only
 """
 
 import json
