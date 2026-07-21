@@ -30,11 +30,11 @@ All figures referenced in the report are saved to `reports/figures/`.
 
 ## Project Structure
 
-```
+````
 cfb-randomness/
 ├── data/
-│   ├── raw/                    # Raw API pulls (gitignored)
-│   └── processed/              # Cleaned, joined game data
+│   ├── raw/                    # Raw API pulls (gitignored, not tracked)
+│   └── processed/               # Cleaned, joined game data (tracked)
 ├── notebooks/
 │   ├── 01_eda.ipynb
 │   ├── 02_feature_exploration.ipynb
@@ -47,10 +47,11 @@ cfb-randomness/
 │       ├── cleaning.py
 │       └── features.py
 ├── reports/
-│   └── figures/                # All figures referenced in the report
+│   └── figures/                 # All figures referenced in the report
+├── .gitignore
 ├── requirements.txt
 └── README.md
-```
+````
 ## Key Findings
 
 - Overall upset rate: 27.4% (2021-2025)
